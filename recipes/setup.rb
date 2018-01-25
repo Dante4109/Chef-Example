@@ -1,4 +1,8 @@
 # ~/setup.rb
+package 'vim-enhanced'
+package 'emacs'
+package 'nano'
+
 package 'tree' do
     action :install
 end
